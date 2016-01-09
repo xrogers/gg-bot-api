@@ -16,6 +16,6 @@
     "ext-curl": "*"
   },
   "autoload": {
-    "psr-4": {"GGBotApi\\": "src/GGBotApi"}
+    "psr-4": {"GGBotApi\\": "src/"}
   }
 }
