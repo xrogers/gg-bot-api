@@ -54,7 +54,7 @@ class PushConnection
 
     public function pushOne(MessageBuilder $message)
     {
-        $this->push([$message]);
+        return $this->push([$message]);
     }
 
     /**
