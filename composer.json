@@ -1,0 +1,21 @@
+{
+  "name": "xrogers/gg-bot-api",
+  "description": "Bot API for GaduGadu (https://boty.gg.pl)",
+  "minimum-stability": "stable",
+  "license": "LGPL-3.0",
+  "keywords": ["gg","gadugadu"],
+  "homepage": "https://github.com/xrogers/gg-bot-api",
+  "authors": [
+    {
+      "name": "Lech Groblewicz",
+      "email": "xrogers@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "ext-curl": "*"
+  },
+  "autoload": {
+    "psr-4": {"GGBotApi\\": "src/GGBotApi"}
+  }
+}
